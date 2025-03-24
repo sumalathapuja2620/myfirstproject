@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">SUMA STORE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="dresses.html">Dresses</a></li>
+                <li><a class="dropdown-item" href="trousers.html">Trousers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="spring.html">New</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Formals
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="formal.html">Formal tops</a></li>
+                <li><a class="dropdown-item" href="blazers.html">Blazers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="casual.html">Occasion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">About us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- carousel -->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" class="carau">
+            <img src="images/img1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" class="carau">
+            <img src="images/img2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" class="carau">
+            <img src="images/img3.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" class="carau">
+            <img src="images/img4.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" class="carau">
+            <img src="images/img5.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- radius images -->
+      <div class="radius-img">
+        <img src="images/b1.webp" alt="" class="radius">
+        <img src="images/b2.webp" alt="" class="radius">
+        <img src="images/b3.webp" alt="" class="radius">
+        <img src="images/b4.webp" alt="" class="radius">
+        <img src="images/b5.webp" alt="" class="radius">
+        <img src="images/b6.webp" alt="" class="radius">
+        <img src="images/b7.webp" alt="" class="radius">
+        <img src="images/b8.webp" alt="" class="radius">
+      </div>
+<!-- category images -->
+      <div class="category" data-aos="fade-up">
+        <img src="images/di1.webp" alt="">
+        <img src="images/di2.webp" alt="">
+        <img src="images/di3.webp" alt="">
+        <img src="images/di4.webp" alt="">
+      </div>
+
+      <div class="title">
+        <p>Shop by Occasion</p>
+      </div>
+
+
+      <div class="formals">
+        <div class="for1 hover1">
+        <img src="images/n1.webp" alt=""  data-aos="fade-up" class="img1">
+        <p>A-line Jacket Dress-Black</p>
+        <p><i class="fa-solid fa-indian-rupee-sign"></i>4,995 <del><i class="fa-solid fa-indian-rupee-sign"></i>5,599</del> <b style=" color:rgb(151, 62, 62);">30% OFF</b></p>
+        </div>
+        <div class="for1 hover2">
+        <img src="images/na2.webp" alt="" data-aos="fade-up" >
+        <p>Bow Neck Polka Top-Black and White</p>
+        <p><i class="fa-solid fa-indian-rupee-sign"></i>1,255 <del><i class="fa-solid fa-indian-rupee-sign"></i>1,795</del> <b style="color: rgb(151, 62, 62);">30% OFF</b></p>
+        </div>
+        <div class="for1 hover3">
+        <img src="images/na3.webp" alt="" data-aos="fade-up" >
+        <p>Stretchable Satin Striped Dress-Black</p>
+        <p><i class="fa-solid fa-indian-rupee-sign"></i>3,395 <del><i class="fa-solid fa-indian-rupee-sign"></i>3,995</del> <b style="color: rgb(151, 62, 62);">15% OFF</b></p>
+        </div>
+        <div class="for1 hover4">
+        <img src="images/na4.webp" alt="" data-aos="fade-up" >
+        <p>Livin Bootcut Pants-Black</p>
+        <p><i class="fa-solid fa-indian-rupee-sign"></i>1,885 <del><i class="fa-solid fa-indian-rupee-sign"></i>2,695</del> <b style="color: rgb(151, 62, 62);">30% OFF</b></p>
+        </div>
+      </div>
+
+
+      <div class="view">
+        <span>VIEW ALL</span>
+      </div>
+
+
+      <div class="banner">
+        <img src="images/springimg.webp" alt="">
+      </div>
+
+
+      <div class="styles">
+        <img src="images/spring1.webp" alt="">
+        <img src="images/spring2.webp" alt="">
+        <img src="images/spring3.webp" alt="">
+      </div>
+
+
+      <div class="nearest">
+        <img src="images/nearest.gif" alt="">
+      </div>
+
+
+      <div class="popular">
+        <span>Popular This Week</span>
+      </div>
+      
+
+      <div class="popular1">
+        <div class="phover1">
+          <img src="images/pop1.webp" alt="">
+          <p>Satin Marble Print Dress-Blue</p>
+          <p><i class="fa-solid fa-indian-rupee-sign"></i>2,445 <del><i class="fa-solid fa-indian-rupee-sign"></i>3,495</del> <b style="color: rgb(114, 42, 42);">30% OFF</b></p>
+        </div>
+        <div class="phover2">
+          <img src="images/pop2.webp" alt="">
+          <p>V-Neck Waistcoat-Brown</p>
+          <p><i class="fa-solid fa-indian-rupee-sign"></i>2,335 <del><i class="fa-solid fa-indian-rupee-sign"></i>2,995</del> <b style="color: rgb(114, 42, 42);">22% OFF</b></p>
+        </div>
+        <div class="phover3">
+          <img src="images/pop3.webp" alt="">
+          <p>Satin Marble Print Dress-Blue</p>
+          <p><i class="fa-solid fa-indian-rupee-sign"></i>2,375 <del><i class="fa-solid fa-indian-rupee-sign"></i>2,795</del> <b style="color: rgb(114, 42, 42);">15% OFF</b></p>
+        </div>
+        <div class="phover4">
+          <img src="images/pop4.webp" alt="">
+          <p>Cotton Checkered Fit and Flare Dress-Brown</p>
+          <p><i class="fa-solid fa-indian-rupee-sign"></i>3,195 <del><i class="fa-solid fa-indian-rupee-sign"></i>3,995</del> <b style="color: rgb(114, 42, 42);">20% OFF</b></p>
+        </div>
+      </div>
+
+      <marquee>
+        <h4>Best Fits For Indian Women</h4>
+      </marquee>
+      <!-- <div class="details">
+        <img src="images/details1.webp" alt="">
+      </div> -->
+
+
+      <!-- Reviews -->
+       <div class="views">
+        <p>FableStreet Women</p>
+       </div>
+       <div class="reviews">
+        <div>
+          <img src="images/pal.webp" alt=""><br><br>
+          <p>Pallavi</p>
+          <p>Honestly, I never thought I’d find pants that I can wear all day. But thanks to LivIn - I’m hooked!</p>
+        </div>
+        <div>
+          <img src="images/n2.webp" alt=""><br><br>
+          <p>Kinnari</p>
+          <p>This shirt is my staple for summer. It's everything I need - breathable, soft and WHITE!</p>
+        </div>
+        <div>
+          <img src="images/n3.webp" alt=""><br><br>
+          <p>Anupriya</p>
+          <p>I love this coord - works for my morning meetings and my evening events.</p>
+        </div>
+        <div>
+          <img src="images/n4.webp" alt=""><br><br>
+          <p>monika</p>
+          <p>Seriously obsessed with this dress - the fit, the fabric, the colour - everything is just perfect.</p>
+        </div>
+       </div>
+       <!-- Footer -->
+        <div class="footer">
+          <div class="f1">
+            <h2>Shop</h2>
+            <p>Tops & Shirts</p>
+            <p>Dresses</p>
+            <p>Tees</p>
+            <p>Trousers</p>
+            <p>Livin</p>
+            <p>Skorts</p>
+            <p>Denim</p>
+            <p>Gift Card</p>
+          </div>
+          <div class="f2">
+            <h2>About</h2>
+            <p>Why We Exist</p>
+            <p>Decoding the Best Fit</p>
+            <p>Livin-The Limitless Pants</p>
+            <p>FS-Life-A House of Brands</p>
+            <p>FableStreet X</p>
+            <p>Store Locator</p>
+            <p>blogs</p>
+          </div>
+          <div class="f3">
+            <h2>Help</h2>
+            <p>FAQs</p>
+            <p>Privacy Policy</p>
+            <p>Shipping Policy</p>
+            <p>Return & Exchange Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Return/Exchange</p>
+            <p>Order Status</p>
+            <p>Sitemap</p>
+          </div>
+          <div class="f4">
+            <h3>FableStreet</h3>
+            <p>2024 FableStreet.com <br>
+              All Rights Reserved</p>
+              <b>CONTACT US</b>
+              <p>Ph No: 01143078400</p>
+              <p>Fable Street Lifestyle Solutions Private Limited 362, Phase 2,Udyog Vihar,Sector 20,Gurugram,Haryana 122016</p>
+              <p>Timings:09:30 AM to 06:30 PM,Mon to sat</p>
+              <p class="f5">For Info/Issues:care@fablestreet.com</p>
+              <p class="f5">For jobs:careers@fablestreet.com</p>
+          </div>
+        </div>
+        <div class="powered">
+          <p>Powered by @sumalatha</p>
+        </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

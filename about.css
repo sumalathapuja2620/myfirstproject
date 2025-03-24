@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   .navbar{
+    justify-content: space-between;
+    position: sticky;
+    z-index: 5;
+    top: 0px;
+    padding: 1.5%;
+   }
+   .india{
+    width: 99%;
+    height: 100vh;
+   }
+   .india>img{
+    width: 100%;
+    height: 88vh;
+   }
+   .fit{
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+    width: 99%;
+    height: 80vh;
+   }
+   .fit>div{
+    width: 50%;
+   }
+   .fitchild>p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: oblique;
+    margin-top: 30%;
+   }
+   .fitchild>img{
+    width: 85%;
+    height: 70vh;
+   }
+   .fit1{
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+    width: 99%;
+    height: 80vh;
+   }
+   .fit1>div{
+    width: 50%;
+   }
+   .fitchild1>p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: oblique;
+    margin-top: 30%;
+   }
+   .fitchild1>img{
+    width: 85%;
+    height: 70vh;
+   }
+   .fit2{
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+    width: 99%;
+    height: 80vh;
+   }
+   .fit2>div{
+    width: 50%;
+   }
+   .fitchild2>p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: oblique;
+    margin-top: 30%;
+   }
+   .fitchild2>img{
+    width: 85%;
+    height: 70vh;
+   }
+   .formals{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5%;
+}
+.formals div{
+    width: 23%;
+}
+.for1 img{
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    height: 70vh;
+}
+.hover1,.hover2,.hover3,.hover4{
+    font-size: 0.9rem;
+}
+.hover1:hover>img{
+    content: url(images/abo1.webp);
+}
+.hover2:hover>img{
+    content: url(images/abo2.webp);
+}
+.hover3:hover>img{
+    content: url(images/abo3.webp);
+}
+.hover4:hover>img{
+    content: url(images/abo4.webp);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 3%;
+    box-shadow: 0px 0px 0px 0.2px gray;
+}
+.shopnow{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    width: 15%;
+    margin: auto;
+}
+.footer>div{
+    width: 23%;
+    margin-top: 3%;
+}
+.f1 h2,.f2 h2,.f3 h2{
+    font-size: 1rem;
+}
+.f1 p,.f2 p,.f3 p,.f4 p{
+    font-size: 0.8rem;
+}
+.f4 h3{
+    font-size: 1.5rem;
+}
+.f5{
+    font-size: 0.6rem !important;
+}
+.powered{
+    background-color: black;
+    color: white;
+    padding : 1.9%;
+    text-align: center;
+}
+@media screen and (width<576px){
+    .fit{
+        flex-direction: column;
+    }
+    .fitchild>p{
+        text-align: center;
+        margin-top: -5%;
+    }
+    .fitchild>img{
+        width: 90%;
+        margin-left: 6%;
+    }
+    .fit>div{
+        width: 100%;
+    }
+    .fit1{
+        flex-direction: column;
+    }
+    .fitchild1>p{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .fitchild1>img{
+        margin-top: 50%;
+        width: 90%;
+        margin-left: 6%;
+    }
+    .fit1>div{
+        width: 100%;
+    }
+    .find{
+        margin-top: 180%;
+    }
+    .fit2{
+        flex-direction: column;
+    }
+    .fitchild2>p{
+        text-align: center;
+        margin-top: 120%;
+    }
+    .fitchild2>img{
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 9%;
+    }
+    .fit2>div{
+        width: 100%;
+    }
+    .formals{
+        margin-top: 10%;
+        flex-direction: column;
+    }
+    .formals>div{
+        width: 100%;
+    }
+    .shopnow{
+        width: 50%;
+    }
+    .hover1,.hover2,.hover3,.hover4,.hover5,.hover6,.hover7,.hover8,.hover9,.hover10{
+        text-align: center;
+    }
+    .footer{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .footer>div{
+        width: 100%;
+        text-align: center;
+    }
+}
